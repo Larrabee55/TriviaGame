@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title> Star Wars Trivia Game</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="../TriviaGame/assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../TriviaGame/assets/css/style.css">
+</head>
+
+<body style="background: center url(../TriviaGame/assets/images/background.png)">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-10  bg-secondary">
+        <div class="row justify-content-center">
+          <h1> Star Wars Trivia Game</h1>
+        </div>
+        <!-- displays timer -->
+        <div class="row justify-content-center">
+          <h2 id="timer">15</h2>
+        </div>
+        <!-- start -->
+        <div class="row justify-content-center">
+          <div class="col-md-2 text-center start-div" id="startGame">
+            <h4>Start</h4>
+          </div>
+        </div>
+        <!-- displays question -->
+        <div class="row justify-content-center">
+          <div class="col-md-10 p-3 text-center" id="question">
+            <h3 class="question"></h3>
+          </div>
+        </div>
+        <!-- displays option 1 -->
+        <div class="row justify-content-center">
+          <div class="col-md-6 p-1 text-center options" id="optionOne">
+
+          </div>
+        </div>
+        <!-- displays option 2 -->
+        <div class="row justify-content-center">
+          <div class="col-md-6 p-1 text-center options" id="optionTwo">
+
+          </div>
+        </div>
+        <!-- displays option 3 -->
+        <div class="row justify-content-center">
+          <div class="col-md-6 p-1 text-center options" id="optionThree">
+
+          </div>
+        </div>
+        <!-- displays option 4 -->
+        <div class="row justify-content-center">
+          <div class="col-md-6 p-1 text-center options" id="optionFour">
+
+          </div>
+        </div>
+        <!-- Displays the right and wrong answers -->
+        <div class="row justify-content-center">
+          <div class="col-md-6 text-center" id="results">
+            <p class="p-1" id="right"></p>
+            <p class="p-1" id="wrong"></p>
+            <p class="p-1" id="unanswered"></p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6 p-1 text-center" id="youAre">
+
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6 p-1 text-center" id="image-holder">
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <script src="../TriviaGame/assets/javascript/java.js"></script>
+</body>
+
+</html>
