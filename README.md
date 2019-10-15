@@ -1,9 +1,20 @@
-## TriviaGame
- when the page loads up the user can only see the title and the start button
- Once the user hits the start button it pulls up the first question and starts the timer
- The User is asked a questions and has options for its answer
- the User can click on any of the options for their answer
- If the users answer is the right answer it displays a picture for 3 seconds and tells the user they are right then displays next question
- If the users answer is wrong it displays a picture for 3 seconds and tells the user they are wrong then displays next question
- if the user doesn't answer the question it displays the picture and tells the user they did not answer
- Once it has gone through all questions it displays how many questons the user got right, wrong, and how many unanswered.
+# TriviaGame
+Star Wars themed trivia game. When the page loads the title and a start button appear on the page, when you hit the start button you a 15 second timer starts and a questions and 4 possible answers appear on the screen. Depending on if the user answers the question right or wrong it will tell the user on the next screen and pull up a picture related to the question for 3 seconds before going to the next question. If the timer runs out before the user answers the question it will automatically go to the next question. after all questions.
+## Getting Started
+Si
+## Prerequisites
+## Installing
+## Running Tests
+## Deployment
+## Built With
+*
+*
+*
+## Contributing
+## Versioning
+## Authors
+*
+## Acknowledgment
+*
+*
+*
